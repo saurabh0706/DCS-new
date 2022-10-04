@@ -1,0 +1,67 @@
+#logo h3
+{
+ color: lightgray;
+ 
+    font-family: 'Playfair Display', 'serif';
+    font-weight: 700;
+}
+  .vertical-list img
+{
+    height: 653px!important;
+	overflow:none;
+} 
+.abtcont
+{
+   position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(292px, 0px, 0px);
+    width: 70%!important;
+	}
+.team-item {
+    /* text-align: center; */
+    position: relative;
+    overflow: hidden;
+}
+.td_font
+{
+	font-size: 16px;
+}
+.drop_category
+{
+    border-style: none;
+    border-bottom: 2px solid #4C4C4C;
+}
+.imgpreview
+{
+border: 2px dashed #eee;
+min-height: 250px!important;
+background-color:#fff;
+padding:10px;
+}
+.imgthumb
+{
+	height:45px;
+	width:45px;
+	border:1px solid #000;
+	box-shadow:0 0 5px #222;
+}
+#actionTable tr td
+{
+	font-size: 16px;
+}
+#actionTable th
+{
+	font-size: 17px;
+}
+.card .face.front {
+    cursor: pointer;
+    height: 215px!important;
+    z-index: 99;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: perspective(800px) rotateY(0deg);
+    -webkit-transform: perspective(800px) rotateY(0deg);
+    transform: perspective(800px) rotateY(0deg);
+}
